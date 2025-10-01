@@ -1,0 +1,4 @@
+wsl --update (Run as Administrator CMD atau PowerShell)
+wsl --version (Cek)
+wsl --install (Jika belum diaktifkan)
+
