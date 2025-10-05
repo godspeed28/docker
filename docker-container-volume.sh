@@ -1,0 +1,3 @@
+docker container create --name mongovolume --volume mongodata:/data/db --env MONGO_INITDB_ROOT_USERNAME=abe --env MONGO_INITDB_ROOT_PASSWORD=marcella --publish 27019:27017 mongo:latest # membuat container dengan volume
+docker container create --name namacontainer --mount source=nama-volume,destination=/path/di/container namaimage:tag # membuat container dengan volume
+docker container inspect namacontainer # melihat detail container termasuk informasi volume

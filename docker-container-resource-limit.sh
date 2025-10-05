@@ -1,0 +1,1 @@
+docker container create --name small-mongo --env MONGO_INITDB_ROOT_USERNAME=albert --env MONGO_INITDB_ROOT_PASSWORD=marcella --publish 27017:27017 --memory="256m" --cpus="0.5" mongo:latest # membuat container dengan limitasi resource memory 256MB dan CPU 0.5 core
